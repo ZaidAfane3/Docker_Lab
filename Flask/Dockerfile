@@ -15,7 +15,6 @@ WORKDIR /app
 
 EXPOSE 80
 
-
 CMD flask run -p 80 --host 0.0.0.0
 
-# docker run -it -p 80:80 -v {PATH_TO_PROJECT}}:/app flask  
+# docker run -it -p 80:80 -v {PATH_TO_PROJECT}:/app flask  
